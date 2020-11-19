@@ -1,0 +1,41 @@
+STRING passwd 
+DELAY 5000
+ENTER
+DELAY 5000
+
+STRING [...] 
+DELAY 5000
+ENTER
+DELAY 5000
+
+STRING rm /etc/ssh/ssh_host_*
+DELAY 5000
+ENTER
+DELAY 5000
+
+STRING [...]
+DELAY
+ENTER
+DELAY 5000
+
+STRING dpkg-reconfigure openssh-server
+DELAY 5000
+ENTER
+DELAY 5000
+
+STRING service ssh restart
+DELAY 5000
+ENTER
+DELAY 5000
+
+STRING nano .ssh/authorized_keys
+DELAY 5000
+ENTER
+DELAY 5000
+
+STRING [ssh]
+DELAY 5000
+ENTER
+DELAY 5000
+
+#Ctrl+x y enter
